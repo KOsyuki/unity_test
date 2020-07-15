@@ -5,8 +5,13 @@ using UnityEngine;
 
 public class StartButton : MonoBehaviour
 {
-    public void OnClickStartButton()
+    void Update()
     {
-        SceneManager.LoadScene("ListScene");
+        if (Input.GetMouseButton(0))
+        {
+            //ここにタップされた時の処理を書く
+            SceneManager.LoadScene("ListScene");
+        }
+
     }
 }
