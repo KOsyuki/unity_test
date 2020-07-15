@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ListScene.unity
     guid: 5578c96f1fbcc8c4faca81c3aff02f96
+  - enabled: 1
+    path: Assets/TODOsakuseiScene.unity
+    guid: 35f06b4dcceb47341acc6e24d86a5894
   m_configObjects: {}
