@@ -5,8 +5,13 @@ using UnityEngine;
 
 public class PlusButton : MonoBehaviour
 {
-    public void OnClickStartButton()
+    void Update()
     {
-        SceneManager.LoadScene("TODOsakuseiScene");
+        if (Input.GetMouseButton(0))
+        {
+            //ここにタップされた時の処理を書く
+            SceneManager.LoadScene("TODOsakuseiScene");
+        }
+
     }
 }
